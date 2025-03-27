@@ -1,0 +1,141 @@
+{
+  "speedLimits": [
+    {
+      "vehicleType": "Veículo Ligeiro de passageiro sem reboque",
+      "limits": {
+        "dentroLocalidade": 50,
+        "foraLocalidade": 90,
+        "viaReservada": 100,
+        "autoestrada": 120
+      }
+    },
+    {
+      "vehicleType": "Veículo Ligeiro de mercadoria sem reboque",
+      "limits": {
+        "dentroLocalidade": 50,
+        "foraLocalidade": 80,
+        "viaReservada": 90,
+        "autoestrada": 110
+      }
+    },
+    {
+      "vehicleType": "Veículo Pesado de passageiro sem reboque",
+      "limits": {
+        "dentroLocalidade": 50,
+        "foraLocalidade": 80,
+        "viaReservada": 90,
+        "autoestrada": 100
+      }
+    },
+    {
+      "vehicleType": "Veículo Pesado de mercadoria sem reboque",
+      "limits": {
+        "dentroLocalidade": 50,
+        "foraLocalidade": 80,
+        "viaReservada": 80,
+        "autoestrada": 90
+      }
+    },
+    {
+      "vehicleType": "Veículo Ligeiro de passageiro com reboque",
+      "limits": {
+        "dentroLocalidade": 50,
+        "foraLocalidade": 70,
+        "viaReservada": 80,
+        "autoestrada": 100
+      }
+    },
+    {
+      "vehicleType": "Veículo Ligeiro de mercadoria com reboque",
+      "limits": {
+        "dentroLocalidade": 50,
+        "foraLocalidade": 70,
+        "viaReservada": 70,
+        "autoestrada": 90
+      }
+    },
+    {
+      "vehicleType": "Veículo Pesado de passageiro com reboque",
+      "limits": {
+        "dentroLocalidade": 50,
+        "foraLocalidade": 70,
+        "viaReservada": 90,
+        "autoestrada": 90
+      }
+    },
+    {
+      "vehicleType": "Veículo Pesado de mercadoria com reboque",
+      "limits": {
+        "dentroLocalidade": 40,
+        "foraLocalidade": 70,
+        "viaReservada": 70,
+        "autoestrada": 80
+      }
+    },
+    {
+      "vehicleType": "Motociclo até 50cc",
+      "limits": {
+        "dentroLocalidade": 40,
+        "foraLocalidade": 60,
+        "viaReservada": null,
+        "autoestrada": null
+      }
+    },
+    {
+      "vehicleType": "Ciclomotor ou Quadriciclo",
+      "limits": {
+        "dentroLocalidade": 40,
+        "foraLocalidade": 45,
+        "viaReservada": null,
+        "autoestrada": null
+      }
+    },
+    {
+      "vehicleType": "Trator Agrícola",
+      "limits": {
+        "dentroLocalidade": 30,
+        "foraLocalidade": 40,
+        "viaReservada": null,
+        "autoestrada": null
+      }
+    },
+    {
+      "vehicleType": "Máquina Industrial sem matrícula",
+      "limits": {
+        "dentroLocalidade": 30,
+        "foraLocalidade": 30,
+        "viaReservada": null,
+        "autoestrada": null
+      }
+    },
+    {
+      "vehicleType": "Máquina Agrícola, Tratorcarro ou Motocultivador",
+      "limits": {
+        "dentroLocalidade": 20,
+        "foraLocalidade": 20,
+        "viaReservada": null,
+        "autoestrada": null
+      }
+    },
+    {
+      "vehicleType": "Comboio Turístico",
+      "limits": {
+        "dentroLocalidade": 25,
+        "foraLocalidade": null,
+        "viaReservada": null,
+        "autoestrada": null
+      }
+    }
+  ],
+  "roadTypes": {
+    "dentroLocalidade": "Dentro da Localidade",
+    "foraLocalidade": "Fora da Localidade",
+    "viaReservada": "na Via Reservada",
+    "autoestrada": "em uma Autoestrada"
+  },
+  "quiz":{
+    "categoria": "velocidade",
+    "title": "Velocidades Máximas Permitidas",
+    "description": "Teste os seus conhecimentos sobre as velocidades máximas permitidas para os diferentes tipos de veículos."
+  }
+}
