@@ -193,8 +193,25 @@ p {
 
 @media (max-width: 768px) {
   .topics-grid {
-    grid-template-columns: 1fr;
-  }
+      /*grid-template-columns: 1fr; */
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      font-size: .5em;
+      
+    }
+    .topic-card h3{
+        font-size: 1.5em;
+    }
+
+.topic-card{
+    height: 84%;
+}
+.topic-card p{
+    font-size: .9em;
+    /*display: none; */
+}
+.topic-card .status-badge{
+    font-size: 1em;
+}
   
   .menu-title {
     font-size: 1.3rem;
